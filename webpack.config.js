@@ -6,9 +6,11 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, "dist"),
-        filname: "bundle.js",
+        filename: "bundle.js",
     },
 
+    mode: "development",
+    
     resolve: {
         extensions: [".js", ".jsx"],
     },
